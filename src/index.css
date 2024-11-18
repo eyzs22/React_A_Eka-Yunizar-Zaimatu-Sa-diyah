@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%; /* Pastikan html dan body mengisi seluruh tinggi viewport */
+  margin: 0; /* Hapus margin default */
+}
+
+body {
+  background: #ffffff; /* Mengatur latar belakang halaman menjadi putih */
+  color: #333; /* Warna teks gelap untuk kontras yang lebih baik */
+  display: flex; /* Menggunakan flexbox untuk mengatur konten */
+  flex-direction: column; /* Mengatur arah flex menjadi kolom */
+  min-height: 100vh; /* Pastikan body setidaknya setinggi viewport */
+}
+
+.container {
+  flex: 1; /* Membuat kontainer mengisi ruang yang tersisa */
+}
